@@ -1,0 +1,200 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Caprasimo&family=Ruda&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caprasimo&family=Permanent+Marker&family=Ruda&display=swap');
+
+body {
+    background-color:  black;
+}
+
+
+:root{
+    --color1:  #0078ff;
+    --color2: #fff;
+}
+
+.navbar-nav{
+    align-items: center;
+}
+
+.navbar-brand {
+    margin-right: 0;
+    margin-bottom: 0.5em;
+}
+
+.navbar {
+    background-color: black;
+}
+
+.navbar .navbar-nav .nav-link {
+    color: var(--color1);
+    font-size: 1.4em;
+    padding: 1.5em 1.5em;
+    font-family: 'Caprasimo', cursive;
+}
+
+.navbar .navbar-nav .nav-link:hover {
+    color: var(--color2);
+}
+
+.dropdown-menu {
+    background-color: black;
+}
+
+.dropdown-menu a {
+    font-family: 'Caprasimo', cursive;
+    color: var(--color1);
+    text-align: center;
+}
+
+@media screen and (max-width: 992px) and (orientation: landscape) {
+
+    .navbar-brand img {
+        width: 60px;
+        height:60px; 
+    }
+}
+
+@media screen and (max-width: 768px) and (orientation: portrait) {
+    
+    .navbar-brand img {
+        width: 60px;
+        height:60px; 
+    }
+}
+
+/* About */
+
+.home {
+  margin: 20px 0 10px 0;
+}
+
+.about-image{
+    height: 60%;
+    padding-bottom: 20px;
+}
+
+.content h2 {
+    color: var(--color1);
+}
+
+.content p {
+    color: var(--color2);
+}
+.btn {
+    /* font-weight:bold; */
+    color: var(--color1);
+    background-color: var(--color2);
+    padding:8px 18px;
+    border: 2px solid var(--color1);
+    border-radius: 50px;
+    cursor:pointer;
+    transition: 0.3s;
+    box-shadow: 0 6px var(--color1);
+    font-family: 'Ruda';
+    font-weight: bold;
+}
+
+.button-container .btn {
+    margin-right: 20px;
+    margin-top: 20px;
+}
+
+
+.btn:hover {
+    color: var(--color2);
+    background-color: var(--color1);
+}
+
+.btn a:hover {
+  color: var(--color2);
+  background-color: var(--color1);
+} 
+
+.button-container{
+    margin-bottom: 40px;
+}
+
+
+
+/* Skills  */
+
+.about {
+  padding: 0 0 20px 0;
+}
+
+.section-title h2{
+    padding-bottom: 20px;
+    font-family: 'Caprasimo', cursive;
+    color: var(--color1);
+    text-align: center;
+}
+
+.skill-section {
+    padding-bottom: 40px;
+}
+
+.logo-small {
+    color: darkblue;
+}
+
+.skill-item {
+    color: rgb(144, 144, 200);
+}
+
+.skill-graph {
+    color: #fff;
+}
+
+/* projects */
+
+.thumbnail-section {
+    padding-bottom: 26px;
+}
+
+.thumbnail img {
+    padding-bottom: 20px;
+    transition: transform 0.3s ease;
+}
+
+.thumbnail img:hover {
+    transform: scale(1.05); /* Reduce the scale on hover (zoom out) */
+  }
+
+.thumbnail-title {
+    color: rgb(80, 80, 238);
+}
+
+.thumbnail-graph {
+    color: #fff;
+}
+
+  
+
+  /* contact-form */
+
+.section-title {
+  text-align: center;
+  color: var(--color1);
+  margin: 30px 0;
+  font-family: 'Caprasimo', cursive;
+  font-size: 32px;
+}
+
+.form-label {
+  color: var(--color1);
+}
+
+.form-control {
+  width: 100%;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.submit-btn {
+  margin: 30px 0;
+}
+
